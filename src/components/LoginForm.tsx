@@ -139,6 +139,10 @@ export const LoginForm: React.FC = () => {
             Email: osadigitalkz@gmail.com<br />
             Password: olzhas@123
           </p>
+          <p className="text-xs text-muted-foreground mt-2">
+            Email: user_123@gmail.com<br />
+            Password: abc1234
+          </p>
         </div>
       </Card>
     </div>
