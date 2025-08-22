@@ -132,18 +132,6 @@ export const LoginForm: React.FC = () => {
             </Button>
           </form>
         </Form>
-
-        <div className="text-center pt-4 border-t border-border">
-          <p className="text-sm text-muted-foreground">Demo Credentials:</p>
-          <p className="text-xs text-muted-foreground mt-1">
-            Email: osadigitalkz@gmail.com<br />
-            Password: olzhas@123
-          </p>
-          <p className="text-xs text-muted-foreground mt-2">
-            Email: user_123@gmail.com<br />
-            Password: abc1234
-          </p>
-        </div>
       </Card>
     </div>
   );
