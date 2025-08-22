@@ -14,8 +14,10 @@ interface AuthContextType {
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 // Hardcoded credentials
-const VALID_EMAIL = 'osadigitalkz@gmail.com';
-const VALID_PASSWORD = 'olzhas@123';
+const VALID_CREDENTIALS = [
+  { email: 'osadigitalkz@gmail.com', password: 'olzhas@123' },
+  { email: 'user_123@gmail.com', password: 'abc1234' }
+];
 
 export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   const [user, setUser] = useState<User | null>(null);
